@@ -202,3 +202,18 @@ arraylist.h:23:33: note: expected ‘void *’ but argument is of type ‘int’
 cc1: all warnings being treated as errors
 Compilation failed
 cc00844
+Wed 20 Mar 2024 08:28:28 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘eliminaElementos’:
+exercises.c:88:11: error: too few arguments to function ‘pushCurrent’
+   88 |           pushCurrent(L);
+      |           ^~~~~~~~~~~
+In file included from exercises.c:1,
+                 from test.c:5:
+arraylist.h:23:6: note: declared here
+   23 | void pushCurrent(List *L, void *dato);
+      |      ^~~~~~~~~~~
+Compilation failed
+f2b3455
