@@ -479,3 +479,13 @@ Wed 20 Mar 2024 09:06:50 PM UTC:
  tests:  4|1
 total_score: 50/70
 77ab92f
+Wed 20 Mar 2024 09:10:45 PM UTC: 
+ exercises.c | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:137:11: error: invalid use of incomplete typedef ‘Stack’ {aka ‘List’}
+  137 |     if(aux->data == NULL){
+      |           ^~
+Compilation failed
+18bf44b
