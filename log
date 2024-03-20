@@ -489,3 +489,13 @@ exercises.c:137:11: error: invalid use of incomplete typedef ‘Stack’ {aka �
       |           ^~
 Compilation failed
 18bf44b
+Wed 20 Mar 2024 09:15:17 PM UTC: 
+ exercises.c | 17 ++++++-----------
+ 1 file changed, 6 insertions(+), 11 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:135:3: error: expected expression before ‘}’ token
+  135 |   }
+      |   ^
+Compilation failed
+36cba59
