@@ -69,7 +69,7 @@ int sumaLista(List *L) {
   
   
    
-  return *enteros; }
+  return suma; }
 
 /*
 Ejercicio 3.
