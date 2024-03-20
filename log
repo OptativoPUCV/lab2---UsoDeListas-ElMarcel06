@@ -392,3 +392,9 @@ exercises.c:117:1: error: expected expression before ‘}’ token
 cc1: all warnings being treated as errors
 Compilation failed
 b94e39e
+Wed 20 Mar 2024 08:55:17 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|1
+total_score: 50/70
+dd53aab
