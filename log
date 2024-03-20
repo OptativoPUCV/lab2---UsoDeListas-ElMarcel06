@@ -217,3 +217,18 @@ arraylist.h:23:6: note: declared here
       |      ^~~~~~~~~~~
 Compilation failed
 f2b3455
+Wed 20 Mar 2024 08:29:18 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘eliminaElementos’:
+exercises.c:88:7: error: too many arguments to function ‘popCurrent’
+   88 |       popCurrent(L,elem);
+      |       ^~~~~~~~~~
+In file included from exercises.c:1,
+                 from test.c:5:
+arraylist.h:32:7: note: declared here
+   32 | void *popCurrent(List *L);
+      |       ^~~~~~~~~~
+Compilation failed
+6526aab
