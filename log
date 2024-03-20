@@ -280,3 +280,13 @@ arraylist.h:32:24: note: expected ‘List *’ but argument is of type ‘int’
 cc1: all warnings being treated as errors
 Compilation failed
 36489ea
+Wed 20 Mar 2024 08:30:51 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘eliminaElementos’:
+exercises.c:88:20: error: invalid use of incomplete typedef ‘List’
+   88 |         popCurrent(*L);
+      |                    ^~
+Compilation failed
+41d454e
