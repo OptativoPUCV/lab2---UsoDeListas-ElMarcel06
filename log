@@ -128,3 +128,8 @@ exercises.c:72:10: error: returning ‘int *’ from a function with return type
 cc1: all warnings being treated as errors
 Compilation failed
 0b64f36
+Wed 20 Mar 2024 08:24:56 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+4f621e6
