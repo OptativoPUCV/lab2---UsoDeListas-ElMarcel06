@@ -102,14 +102,15 @@ Puedes usar una pila auxiliar.
 */
 
 void copia_pila(Stack *P1, Stack *P2) {
-  Stack *aux = create_stack();  
+  Stack *aux = create_stack();
+  void *dato;
   while(P1 != NULL){
-    push(aux, (P1));
+    push(aux, dato);
     
   }
   while(aux != NULL){
-    push(P2,aux);
-    push(P1, (aux));
+    push(P2,dato);
+    push(P1, aux);
     
   }
   
