@@ -117,3 +117,14 @@ Wed 20 Mar 2024 08:24:31 PM UTC:
  tests:  1|4
 total_score: 10/70
 e259f73
+Wed 20 Mar 2024 08:24:48 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:72:10: error: returning ‘int *’ from a function with return type ‘int’ makes integer from pointer without a cast [-Werror=int-conversion]
+   72 |   return enteros; }
+      |          ^~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+0b64f36
