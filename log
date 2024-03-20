@@ -262,3 +262,21 @@ arraylist.h:32:7: note: declared here
       |       ^~~~~~~~~~
 Compilation failed
 69f0273
+Wed 20 Mar 2024 08:30:37 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘eliminaElementos’:
+exercises.c:88:20: error: passing argument 1 of ‘popCurrent’ makes pointer from integer without a cast [-Werror=int-conversion]
+   88 |         popCurrent(elem);
+      |                    ^~~~
+      |                    |
+      |                    int
+In file included from exercises.c:1,
+                 from test.c:5:
+arraylist.h:32:24: note: expected ‘List *’ but argument is of type ‘int’
+   32 | void *popCurrent(List *L);
+      |                  ~~~~~~^
+cc1: all warnings being treated as errors
+Compilation failed
+36489ea
