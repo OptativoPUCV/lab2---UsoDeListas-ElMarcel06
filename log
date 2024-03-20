@@ -168,3 +168,19 @@ exercises.c:83:6: note: declared here
       |      ^~~~~~~~~~~~~~~~
 Compilation failed
 67670bf
+Wed 20 Mar 2024 08:27:39 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘eliminaElementos’:
+exercises.c:88:28: error: passing argument 2 of ‘eliminaElementos’ makes integer from pointer without a cast [-Werror=int-conversion]
+   88 |         eliminaElementos(L,ent);
+      |                            ^~~
+      |                            |
+      |                            int *
+exercises.c:83:36: note: expected ‘int’ but argument is of type ‘int *’
+   83 | void eliminaElementos(List *L, int elem) {
+      |                                ~~~~^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+8d51662
