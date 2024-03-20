@@ -290,3 +290,9 @@ exercises.c:88:20: error: invalid use of incomplete typedef ‘List’
       |                    ^~
 Compilation failed
 41d454e
+Wed 20 Mar 2024 08:34:49 PM UTC: 
+ exercises.c | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+ tests:  3|2
+total_score: 40/70
+c14ee7a
