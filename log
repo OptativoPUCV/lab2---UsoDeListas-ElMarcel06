@@ -398,3 +398,14 @@ Wed 20 Mar 2024 08:55:17 PM UTC:
  tests:  4|1
 total_score: 50/70
 dd53aab
+Wed 20 Mar 2024 08:59:31 PM UTC: 
+ exercises.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:128:20: error: suggest parentheses around comparison in operand of ‘!=’ [-Werror=parentheses]
+  128 |   for(int i = 0; i < cadena[i] != '\0'; i++){
+      |                  ~~^~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+3786cf2
