@@ -439,3 +439,21 @@ Wed 20 Mar 2024 09:04:00 PM UTC:
  tests:  4|1
 total_score: 50/70
 8a97960
+Wed 20 Mar 2024 09:04:27 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:130:21: error: passing argument 2 of ‘push’ makes pointer from integer without a cast [-Werror=int-conversion]
+  130 |     push(aux, cadena[i]);
+      |               ~~~~~~^~~
+      |                     |
+      |                     char
+In file included from exercises.c:2,
+                 from test.c:5:
+stack.h:11:31: note: expected ‘void *’ but argument is of type ‘char’
+   11 | void push(Stack *stack, void *data) { pushFront(stack, data); }
+      |                         ~~~~~~^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+309de2f
