@@ -360,3 +360,17 @@ exercises.c:108:5: error: ‘dato’ may be used uninitialized [-Werror=maybe-un
 cc1: all warnings being treated as errors
 Compilation failed
 ed619a6
+Wed 20 Mar 2024 08:54:44 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:111:14: error: assignment to ‘void *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+  111 |   while(dato = pop(aux) != NULL){
+      |              ^
+exercises.c:111:9: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+  111 |   while(dato = pop(aux) != NULL){
+      |         ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+d54c87f
