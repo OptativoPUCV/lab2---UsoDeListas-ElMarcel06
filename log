@@ -155,3 +155,16 @@ Wed 20 Mar 2024 08:25:12 PM UTC:
  tests:  2|3
 total_score: 20/70
 ea84db3
+Wed 20 Mar 2024 08:27:23 PM UTC: 
+ exercises.c | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘eliminaElementos’:
+exercises.c:88:9: error: too few arguments to function ‘eliminaElementos’
+   88 |         eliminaElementos(L);
+      |         ^~~~~~~~~~~~~~~~
+exercises.c:83:6: note: declared here
+   83 | void eliminaElementos(List *L, int elem) {
+      |      ^~~~~~~~~~~~~~~~
+Compilation failed
+67670bf
