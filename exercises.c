@@ -144,7 +144,7 @@ int parentesisBalanceados(char *cadena) {
         return 0;
       }
     }   
-
+  }
 int balanc;
   if(top(aux) == NULL){
     balanc = 1;
