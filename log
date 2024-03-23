@@ -540,3 +540,17 @@ Sat 23 Mar 2024 11:44:31 PM UTC:
  tests:  4|1
 total_score: 50/70
 ac61a8d
+Sat 23 Mar 2024 11:45:57 PM UTC: 
+ exercises.c | 15 +++++++--------
+ 1 file changed, 7 insertions(+), 8 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:148:5: error: variable ‘balanc’ set but not used [-Werror=unused-but-set-variable]
+  148 | int balanc;
+      |     ^~~~~~
+exercises.c:159:1: error: control reaches end of non-void function [-Werror=return-type]
+  159 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+12f8db0
