@@ -505,3 +505,20 @@ Wed 20 Mar 2024 09:15:49 PM UTC:
  tests:  4|1
 total_score: 50/70
 bb2c706
+Sat 23 Mar 2024 11:37:32 PM UTC: 
+ exercises.c | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:134:27: error: expected statement before ‘)’ token
+  134 |       if(top(aux) == NULL)){
+      |                           ^
+exercises.c:134:7: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+  134 |       if(top(aux) == NULL)){
+      |       ^~
+exercises.c:134:28: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  134 |       if(top(aux) == NULL)){
+      |                            ^
+cc1: all warnings being treated as errors
+Compilation failed
+6d87809
