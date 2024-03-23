@@ -153,7 +153,8 @@ if(top(aux) == NULL){
 else{
   balanc = 0;
 }
-
+return balanc;
+}
   
 
   
